@@ -8,4 +8,7 @@ from tenant_schemas.models import TenantMixin
 class ClientAdmin(admin.ModelAdmin):
         list_display = ('name', 'paid_until')
 
+
+
+
 admin.site.register(CustomUser)
